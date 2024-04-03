@@ -9,32 +9,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header role="banner">
+        <nav role="navigation">
+            <ul itemscope itemtype="http://schema.org/SiteNavigationElement">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#booking">Booking</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="services">
+    <main role="main">
+        <section id="services" itemscope itemtype="http://schema.org/Service">
             <h2>Our Services</h2>
             <!-- Services content goes here -->
         </section>
-        <section id="pricing">
+        <section id="pricing" itemscope itemtype="http://schema.org/Offer">
             <h2>Pricing</h2>
             <!-- Pricing content goes here -->
         </section>
-        <section id="booking">
+        <section id="booking" itemscope itemtype="http://schema.org/Reservation">
             <h2>Booking</h2>
             <!-- Booking information goes here -->
         </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
         <p>Contact us at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
-        <ul>
+        <ul itemscope itemtype="http://schema.org/SiteNavigationElement">
             <li><a href="#">FAQs</a></li>
             <li><a href="#">Customer Reviews</a></li>
         </ul>
